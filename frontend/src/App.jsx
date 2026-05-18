@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 
-const API = "http://127.0.0.1:8000";
-
+const API = "https://shrinath1233-emosense.hf.space";
 const EMOTION_COLORS = {
   happy: "#FFD700", sad: "#6B8CFF", angry: "#FF4444",
   surprised: "#FF8C00", fearful: "#9B59B6", disgusted: "#2ECC71", neutral: "#95A5A6",
